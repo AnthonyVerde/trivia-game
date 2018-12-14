@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Trivia Game</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	 crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	 crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+	 crossorigin="anonymous"></script>
+	<script src="assets/javascript/app.js"></script>
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+<!---------------------------HEADER-------------------------->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12" id="header">
+				<h1>Trivia!</h1>
+			</div>
+		</div>
+
+<!---------------------------TIMER-------------------------->
+		<div class="row">
+			<div class="col-md-12">
+				<div class="timer">
+					<h3 id="time-remaining">
+						30
+					</h3>
+				</div>
+			</div>
+		</div>
+
+<!-----QUIZ START BUTTON AND INSTRUCTIONS/CORRECT & INCORRECT ALERTS------->
+		<div class="row">
+			<div class="col-md-12">
+				<div id="content">
+				</div>
+			</div>
+		</div>
+
+<!---------------------QUESTIONS/CHOICES------------------>
+		<div class="row">
+			<div class="col-md-12">
+				<div id="trivia-content">
+					<form>
+						<div class="form-content">
+							<div class="radio">
+								<h3 class="currentQuestion"></h3>
+								<div id="responses">
+								</div>
+							</div>
+						</div>
+<!-------------------ANSWER SUBMIT BUTTON------------------>
+						<div id="submit-btn"></div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+
+</html>

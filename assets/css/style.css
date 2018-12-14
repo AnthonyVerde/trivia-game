@@ -1,0 +1,60 @@
+
+
+.container {
+    width: 100%;
+}
+
+
+#header {
+    text-align: center;
+    background: lightgray;
+    max-width: 100%;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.timer {
+    background: red;
+    text-align: center;
+    padding: 20px;
+    padding-top: 22px;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 60px;
+}
+
+#content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#start-btn {
+    margin-top: 20px;
+}
+
+#trivia-content {
+    text-align: center;
+}
+
+.radio {
+    margin: 40px;
+}
+
+#responses{
+    margin: 40px;
+}
+
+label {
+    margin: 25px;
+}
+
+#radio-id {
+    margin: 25px;
+}
