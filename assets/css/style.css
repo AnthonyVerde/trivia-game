@@ -1,5 +1,7 @@
 
 body{
+    background-image: url('../images/old_mathematics.png');
+    background-repeat: repeat;
     font-family: Arial, Helvetica, sans-serif;
 }
 .container {
