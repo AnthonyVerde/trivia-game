@@ -3,7 +3,7 @@ $(document).ready(function() {
 var questionCounter = 0;
 
 //transition time between questions 
-var transitionTime = 5000;
+var transitionTime = 3000;
 
 //track score
 var correct = 0;
@@ -48,7 +48,7 @@ var questions = [
 
 //start page with button and instructions
 function quizStart() {
-	$("#content").append("<p>" + "Game instructions go here" + "</p>");
+	$("#content").append('<p id="instruction-blurb">' + "Welcome to this random multiple-choice trivia game with some random trivia questions. You will have 30 seconds to answer each question. Timer starts as soon as you click the start button. Good luck!" + "</p>");
 	$("#content").append('<a href="#" class="btn btn-primary btn-lg" id="start-btn">' + "Start the Quiz!" + '</a>');
 	
 	//quiz start button
@@ -62,7 +62,7 @@ function quizStart() {
 };
 
 //add 30 seconds for each question
-var timeRemaining = 30;
+var timeRemaining = 20;
 var countdown;
 
 function timerStart() {
@@ -154,7 +154,7 @@ function nextQuestion() {
 	
 //timer reset function for 30 seconds
 function resetTimer() {
-	timeRemaining = 30;
+	timeRemaining = 20;
 	$("#time-left").html(timeRemaining + " seconds");
 };
 
